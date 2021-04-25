@@ -1,0 +1,45 @@
+body {
+    background-image: url('../images/background.png');
+}
+
+.header {
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.0px);
+    -webkit-backdrop-filter: blur(50.0px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+td{
+    padding-left: 10px;
+    color: rgb(53, 5, 5);
+}
+
+
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 800px;
+    box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+}
+
+button{
+    background: rgba(115, 230, 238, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.0px);
+    -webkit-backdrop-filter: blur(13.0px);
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: 30px;
+    color: #0b427c;
+}
+
+tr{
+    height: 50px;
+}
